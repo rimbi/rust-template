@@ -1,0 +1,14 @@
+[placeholders.rust_channel]
+type = "string"
+prompt = "Rust version to use in this project?"
+default = "stable"
+
+[placeholders.rust_target]
+type = "string"
+prompt = "Rust target to use in this project?"
+default = "x86_64-apple-darwin"
+choices = [
+    "x86_64-unknown-linux-gnu",
+    "x86_64-apple-darwin",
+    "x86_64-pc-windows-msvc",
+]
